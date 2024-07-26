@@ -1,0 +1,64 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / Packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+dist/
+build/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyenv
+.python-version
+
+# Poetry
+.poetry/
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.cache/
+
+# Coverage
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.dockerignore
+
+# Local configuration files
+*.local
+
+# Secrets
+*.env
+*.env.*
